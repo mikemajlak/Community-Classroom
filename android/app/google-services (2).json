@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "130411930818",
+    "project_id": "community-classroom-859bb",
+    "storage_bucket": "community-classroom-859bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130411930818:android:99af5df930ac211391c75b",
+        "android_client_info": {
+          "package_name": "com.example.community_classroom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXT1u_Rv5xZfd1WCUZ6xsVthaxLJ-zDP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
