@@ -1,16 +1,44 @@
-# community_classroom
+# Community Classroom
 
-A new Flutter project.
+Responsive Full Stack discussion forum application like reddit - Works on Android! 
 
-## Getting Started
+## Features
+- Google/Guest Authentication
+- Create, Join community
+- Community Profile (Avatar, Banner, Members) 
+- Edit Description and Avatar of community
+- Post (link only, photo, text only) 
+- Displaying posts from communities user is part of
+- Upvote, Downvote
+- Comment
+- Award the Post
+- Update Karma
+- Add Moderators
+- Moderator- remove post
+- Delete post
+- User Profile (Avatar, Banner) 
+- Theme Switch
+- Cross Platform
+- Responsive UI
+- Latest posts (instead of home, display this to guest users) 
 
-This project is a starting point for a Flutter application.
+## Installation
+After cloning this repository, migrate to ```Community Classroom``` folder. Then, follow the following steps:
+- Create Firebase Project
+- Enable Authentication (Google Sign In, Guest Sign In)
+- Make Firestore Rules
+- Create Android, iOS & Web Apps
+- Use FlutterFire CLI to add the Firebase Project to this app.
+Then run the following commands to run your app:
+```bash
+  flutter pub get
+  open -a simulator (to get iOS Simulator)
+  flutter run
+  flutter run -d chrome --web-renderer html (to see the best output)
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Used
+**Server**: Firebase Auth, Firebase Storage, Firebase Firestore
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Client**: Flutter, Riverpod 2.0, Routemaster
+    
