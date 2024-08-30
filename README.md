@@ -30,11 +30,10 @@ After cloning this repository, migrate to ```Community Classroom``` folder. Then
 - Create Android, iOS & Web Apps
 - Use FlutterFire CLI to add the Firebase Project to this app.
 Then run the following commands to run your app:
-```bash
+```cmd
   flutter pub get
   open -a simulator (to get iOS Simulator)
   flutter run
-  flutter run -d chrome --web-renderer html (to see the best output)
 ```
 
 ## Tech Used
