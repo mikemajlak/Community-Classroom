@@ -32,7 +32,7 @@ After cloning this repository, migrate to ```Community Classroom``` folder. Then
 Then run the following commands to run your app:
 ```cmd
   flutter pub get
-  open -a simulator (to get iOS Simulator)
+  open -a simulator 
   flutter run
 ```
 
